@@ -316,3 +316,54 @@ background-color: #F7CAC9;
 background-color: #D8E2DC;
 }
 }
+/* ===== Media screen 201px to 300px ===== */
+@media screen and (max-width: 300px) and (min-width: 201px) {
+  .navbar {
+    padding: 8px 12px;
+    background-color: #FFD6E0;
+  }
+
+  .navbar h1 {
+    font-size: 16px;
+  }
+
+  .menu-icon {
+    width: 25px;
+    height: 18px;
+  }
+
+  .nav-links {
+    width: 160px;
+    padding: 12px;
+    top: 50px;
+    right: 10px;
+    gap: 12px;
+  }
+
+  .profile img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .info {
+    padding: 16px;
+  }
+
+  .info h2 {
+    font-size: 18px;
+  }
+
+  .info h3 {
+    font-size: 14px;
+  }
+
+  .quote {
+    font-size: 12px;
+    padding-top: 30px;
+  }
+
+  .footer {
+    font-size: 28px;
+    padding: 6px 0;
+  }
+}
